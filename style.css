@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+  .content {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    height: 100%;
+  }
+.fab, .fas {
+    font-size: 40px;
+    padding-right: 25px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: orange;
+}
+h2 {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.fab:hover {
+    color: white;
+}
+.fas:hover {
+    color: white;
+}
+  button {
+    background-color: initial; /* Green */
+    border: 3px solid orange;
+    padding: 10px 32px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+  }
+  button:hover {
+    background-color: orange;
+  }
+.music_body {
+    padding-top: 31px;
+}
+.songs {
+  padding: 10px;
+  padding-top: 25px;
+}
+.music_body_main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+h1 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  #myVideo {
+    display: none;
+  }
+  h2, p, h1, button {
+    color: white;
+  }
+  .fab:hover {
+    color: white;
+  }
+  .fas:hover {
+    color: white;
+  }
+}
